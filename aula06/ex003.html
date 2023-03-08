@@ -17,8 +17,10 @@
     <h1>Olá, Mundo!</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, molestias delectus cumque dolore nesciunt eaque quidem perferendis dolores ratione asperiores rem aspernatur voluptatibus, eos dicta neque porro voluptas consequuntur. Nostrum?</p>
     <script>
-        var n1 = window.prompt('Digite um número: ')
-        var n2 = window.prompt('Digite outro número: ')
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é ' + String(soma))     
     </script>
 </body>
 </html>
