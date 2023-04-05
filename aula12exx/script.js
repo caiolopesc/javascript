@@ -15,7 +15,7 @@ function verificar() {
             gênero = 'Homem'
             if(idade >= 0 && idade < 10) {
                 //criança              
-                img.setAttribute('src', 'foto-abcd.png')
+                img.setAttribute('src', 'foto-criança-masc.png')
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'foto-abcd.png')
@@ -30,7 +30,7 @@ function verificar() {
             gênero = 'Mulher'
             if(idade >= 0 && idade < 10) {
                 //criança             
-                img.setAttribute('src', 'foto-abcd.png')
+                img.setAttribute('src', 'foto-criança-fem.png')
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'foto-abcd.png')
